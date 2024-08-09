@@ -1,0 +1,46 @@
+.ani {
+    background-color: red;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50px;
+    left: 500px ;
+    animation-name: ayaan;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+
+}
+.h {
+    color: white;
+    animation-name: h;
+    animation-duration: 5s;
+    text-align: center;
+    animation-iteration-count: infinite ;
+
+}
+@keyframes h {
+    to {
+        color: black;
+        text-shadow: 20px 25px 20px green;
+     
+    
+    }
+
+
+}
+
+
+
+
+
+@keyframes ayaan {
+    to {
+        height: 400px;
+        width: 400px;
+    }
+    from {
+        background-color: blue;
+        box-shadow: 5px 5px 20px red;
+    }
+    
+}
